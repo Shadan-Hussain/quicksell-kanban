@@ -1,0 +1,51 @@
+.groupDiv{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 10px;
+
+}
+
+.cardsDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.groupHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.groupHeaderLeftDiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    width: 50%;
+}
+
+.groupIconDiv{
+    display: flex;
+    height: 100%;
+    width: 13%;
+    background-color: red;
+    margin-right: 5px;
+}
+
+.groupTitle{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.groupCount{
+    font-size: 1.1rem;
+    color: grey;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+

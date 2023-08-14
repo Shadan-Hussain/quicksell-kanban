@@ -1,0 +1,88 @@
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.topDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+
+.midDiv{
+    display: flex;
+    width: 80%;
+}
+
+.bottomDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.cardId{
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.cardImageDiv{
+    align-self: stretch;
+    background-color: red;
+    width: 7%;
+    border-radius: 10px;
+}
+
+.cardTitle{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 700;
+}
+
+.tagIconDiv{
+    
+    height: 100%;
+    width: 5%;
+    margin: 5%;
+    border: 1px solid lightgray;
+}
+
+.tagDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tag{
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.tagCircleDiv{
+    display: flex;
+    height: 100%;
+    width: 5%;
+    border: 1px solid lightgray;
+
+}
+
+
+
+

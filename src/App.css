@@ -1,0 +1,75 @@
+.groupDivs{
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+}
+
+.headerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 21px;
+    height: 35px;
+}
+
+.displayDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.displayFilter{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.arrowDiv{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.filterDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.firstFilterDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    height: 60%;
+    width: 100%;
+    align-self: center;
+}
+
+.filterText{
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: gray;
+}
